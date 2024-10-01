@@ -1,0 +1,30 @@
+main:14 - LOGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+uvicorn.access:466 - 172.22.0.1:58978 - "PATCH /api/v1/users/me HTTP/1.1" 400
+uvicorn.access:466 - 172.22.0.1:41180 - "GET /api/v1/users/1 HTTP/1.1" 401
+uvicorn.error:258 - Shutting down
+uvicorn.error:67 - Waiting for application shutdown.
+uvicorn.error:76 - Application shutdown complete.
+uvicorn.error:92 - Finished server process [7]
+main:17 - LOGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:38 - Request: GET http://localhost:7000/docs
+main:43 - Completed in 0.02s | Status: 200
+uvicorn.access:466 - 172.22.0.1:57622 - "GET /docs HTTP/1.1" 200
+main:38 - Request: GET http://localhost:7000/openapi.json
+main:43 - Completed in 0.13s | Status: 200
+uvicorn.access:466 - 172.22.0.1:57622 - "GET /openapi.json HTTP/1.1" 200
+main:38 - Request: GET http://localhost:7000/api/v1/users/me
+main:43 - Completed in 0.05s | Status: 401
+uvicorn.access:466 - 172.22.0.1:57634 - "GET /api/v1/users/me HTTP/1.1" 401
+main:38 - Request: GET http://localhost:7000/api/v1/users/0
+main:43 - Completed in 0.01s | Status: 401
+uvicorn.access:466 - 172.22.0.1:55450 - "GET /api/v1/users/0 HTTP/1.1" 401
+uvicorn.error:258 - Shutting down
+uvicorn.error:67 - Waiting for application shutdown.
+uvicorn.error:76 - Application shutdown complete.
+uvicorn.error:92 - Finished server process [8]
+main:16 - LOGING CONFIGURED
+uvicorn.error:62 - Application startup complete.
+main:12 - Completed in 0.01s | Status code: 401
+uvicorn.access:466 - 172.23.0.1:51612 - "DELETE /api/v1/users/1 HTTP/1.1" 401
